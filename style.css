@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.banner-container{
+    background-color: #2D25A0;
+    height: 677px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.banner-details{
+    width: 75%;
+    padding-left: 116px;
+    padding-top: 207px;
+}
+.banner-details h1{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin: 0px;
+    padding-bottom: 27px;
+}
+.banner-details a{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.banner-details a:hover{
+    background-color: teal;
+
+}
+.banner-details i{
+    padding-left: 10px;
+}
+.banner-image{
+    width: 50%;
+    padding: 153px 120px 86px 40px;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+}
+@keyframes img-style {
+    50% {
+      transform:scale(0.7);
+    }
+    100% {
+      transform:scale(1);
+    }
+  }
+  .img-style:hover {
+      animation-name: img-style;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count:infinite;
+      animation-direction:reverse;
+  }
+  /* playes style started */
+
+  .player-container ,.highlight-container{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    
+  }
+
+  .players {
+    margin-top: 70px;
+  }
+  
+  .player-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+  }
+  
+  .players article {
+    padding: 15px;
+    -webkit-box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.48);
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.48);
+  }
+  
+  .player-image img {
+    max-width: 300px;
+    height: 256px;
+  }
+  
+  .player-name h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .player-info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #6c6c6c;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* highlights part starting */
+  .Highlights {
+    margin-top: 165px;
+    margin-bottom: 158px;
+  }
+  
+  .Highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 69px;
+  }
+  
+  .Highlights-title {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #0a0826;
+    line-height: 60px;
+    margin-bottom: 8px;
+  }
+  
+  .Highlights-info {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #6c6c6c;
+  }
+  
+  #watchnow {
+    margin-top: 24px;
+  }
+  .buttom{
+    padding: 10px 24px 10px 24px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: #e02c6d;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: 0.5s all ease;
+    border: 1px solid #e02c6d;
+  }
+  
+  .buttom:hover {
+    background: #2d25a0;
+    border: 1px solid #ffffff;
+  }
+  
+  .Highlights-image img {
+    max-width: 567px;
+    height: 427px;
+  }
+/* players gallery starting */
+.gallery h1{
+    font-weight: 700;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.gallery{
+    height: 500px;
+    background-color: #2D25A0;
+}
+
+.image-box
+{
+    height: 140px;
+    width: 164px;
+    background-color: aliceblue;
+}
+.first-row {
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 78px;
+	padding-right: 58px;
+}
+.first-row img {
+	width: 150px;
+	padding-top: 6px;
+	padding-left: 7px;
+}
+.second-row{
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 78px;
+	padding-right: 58px;
+    padding-top: 30px;
+}
+.second-row img{
+    width: 150px;
+    padding: 5px;
+}
+/* footer section style started */
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    height: 110px;
+    padding-top: 40px;
+}
+/* font-awsome icon */
+ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding-left: 0px;
+}
+ul li{
+    display: flex;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: #969BAB;
+    font-size: 32px;
+}
+ul li a:hover{
+    color: #2D25A0;
+}
+.copyright p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-top: -5px;
+}
+/*------------------------------------- responsive for mobile---------------------------------------------  */
+
+
+@media only screen and (max-width: 688px) {
+    .banner-container{
+        background-color: #2D25A0;
+        height: 695px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-details{
+        width: 60%;
+        padding-left: 16px;
+        padding-top: 112px;
+        padding-right: 66px;
+    }
+    .banner-details h1{
+        color: white;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 50px;
+        margin: 0px;
+        padding-bottom: 27px;
+    }
+    .banner-details a{
+        width: 168px;
+        height: 44px;
+        padding: 10px 24px 10px 24px;
+        background-color: #E02C6D;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+    .banner-details i{
+     padding-left: 10px;
+    }
+    
+    .banner-image {
+        width: 40%;
+        padding-top: 50px;
+        display: flex;
+    }
+    .banner-image img {
+        width: 329px;
+        height: 260px;
+        margin: 0px -16px -50px -16px;
+    }
+
+.players {
+    margin-top: 47px;
+  }
+
+  .player-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px 0px;
+  }
+
+  .Highlights {
+    margin-top: 60px;
+    margin-bottom: 43px;
+  }
+
+  .Highlights-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .Highlights-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #watchnow {
+    margin-bottom: 29px;
+  }
+
+  .gallery h1{
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.gallery{
+    height: 250px;
+    background-color: #2D25A0;
+}
+
+.image-box {
+    height: 51px;
+    width: 164px;
+    background-color: aliceblue;
+}
+.first-row {
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 58px;
+	padding-right: 58px;
+}
+.first-row img {
+	width: 50px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.second-row{
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 58px;
+	padding-right: 58px;
+    padding-top: 20px;
+}
+.second-row img{
+	width: 50px;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.footer-logo img {
+	height: 65px;
+	padding-top: 40px;
+	padding-right: 35px;
+}
+
+}
+    /*---------------------------------------- responsive for tablets---------------------------------------  */
+    @media only screen and (min-width: 688px) and (max-width:992px){
+        .banner-container{
+            height: 430px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .banner-details {
+            width: 75%;
+            padding-left: 50px;
+            padding-top: 112px;
+            padding-right: 66px;
+        }
+        .banner-details h1{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 50px;
+            margin: 0px;
+            padding-bottom: 27px;
+        }
+        .banner-details a{
+            width: 168px;
+            height: 44px;
+            padding: 10px 24px 10px 24px;
+        }
+        .banner-details i{
+         padding-left: 10px;
+        }
+        
+        .banner-image {
+            width: 40%;
+            padding-top: 90px;
+            display: flex;
+        }
+        .banner-image img {
+            width: 329px;
+            height: 260px;
+            margin: 0px -90px -80px -16px;
+        }
+        .player-container {
+            padding: 0px 18px;
+          }
+        
+          .player-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        
+          .player-img img {
+            width: 100%;
+            height: auto;
+          }
+        
+          .Highlights {
+            margin-top: 120px;
+            margin-bottom: 126px;
+          }
+
+          .gallery h1{
+            font-weight: 700;
+            font-size: 36px;
+            color: white;
+            text-align: center;
+            padding-top: 25px;
+        }
+        
+        .gallery {
+            height: 350px;
+            background-color: #2D25A0;
+        }
+        
+        .image-box {
+            height: 94px;
+            width: 164px;
+            background-color: aliceblue;
+        }
+        .first-row {
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 58px;
+            padding-right: 58px;
+        }
+        .first-row img {
+            width: 100px;
+            padding-top: 4px;
+            padding-left: 4px;
+            padding-right: 3px;
+        }
+        .second-row{
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 58px;
+            padding-right: 58px;
+            padding-top: 20px;
+        }
+        .second-row img{
+            width: 100px;
+            padding-top: 4px;
+            padding-left: 4px;
+            padding-right: 3px;
+        }
+        .footer-logo img {
+            height: 65px;
+            padding-top: 40px;
+            padding-right: 35px;
+        }
+    }
